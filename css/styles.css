@@ -9,7 +9,7 @@ html, body {
   font-family: "Raleway", sans-serif;
 }
 
-header {
+#navbar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -19,7 +19,7 @@ header {
   text-transform: uppercase;
 }
 
-#navbar, #projects, #contact {
+#navbar-container, #projects, #contact {
   width: 1200px;
   margin: 0 auto;
 }
