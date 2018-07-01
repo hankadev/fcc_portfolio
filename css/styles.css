@@ -1,0 +1,63 @@
+:root {
+  --dark-purple: #990099;
+  --white: #fff;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: right;
+  background-color: var(--dark-purple);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#navbar, #projects, #contact {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+#navbar ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  background: url("../img/landing.jpg") no-repeat top center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-content {
+  background-color: var(--dark-purple);
+  color: var(--white);
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#welcome-content h1 {
+  text-transform: uppercase;
+}
