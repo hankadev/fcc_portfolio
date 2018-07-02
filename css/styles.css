@@ -9,6 +9,15 @@ html, body {
   font-family: "Raleway", sans-serif;
 }
 
+@media (min-width: 1200px) {
+  #navbar-container, #projects {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/***** navigation *****/
+
 #navbar {
   position: fixed;
   top: 0;
@@ -17,11 +26,6 @@ html, body {
   background-color: var(--dark-purple);
   font-weight: bold;
   text-transform: uppercase;
-}
-
-#navbar-container, #projects, #contact {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 #navbar ul {
@@ -37,6 +41,8 @@ html, body {
   color: var(--white);
   text-decoration: none;
 }
+
+/***** welcome section *****/
 
 #welcome-section {
   height: 100vh;
@@ -60,4 +66,26 @@ html, body {
 
 #welcome-content h1 {
   text-transform: uppercase;
+}
+
+/***** projects section *****/
+
+/***** contact section *****/
+
+#contact {
+  text-align: center;
+  font-weight: bold;
+  background-color: var(--dark-purple);
+  color: var(--white);
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  font-size: 3em;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: var(--white);
 }
