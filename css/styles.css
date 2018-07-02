@@ -70,6 +70,29 @@ html, body {
 
 /***** projects section *****/
 
+#projects {
+  text-align: center;
+  color: var(--dark-purple);
+  margin-bottom: 50px;
+}
+
+#projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-tile {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.project-tile a img:hover {
+  transition: all 250ms ease;
+  transform: scale(1.2);
+}
+
 /***** contact section *****/
 
 #contact {
