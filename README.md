@@ -1,7 +1,7 @@
 # Personal Portfolio Webpage
 This is my implementation of [Free Code Camp's](https://www.freecodecamp.org/) Personal Portfolio Webpage project.
 
-[view in browser](https://hanny21.github.io/fcc_portfolio/)
+[view in browser](https://hankadev.github.io/fcc_portfolio/)
 
 ## Objective
 Built an app that is functionally similar to [this](https://codepen.io/freeCodeCamp/full/zNBOYG/).
